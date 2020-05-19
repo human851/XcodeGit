@@ -38,10 +38,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="K6W-cf-vQk">
+                                <rect key="frame" x="0.0" y="297" width="375" height="195"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="195" id="MrB-EW-4up"/>
+                                    <constraint firstAttribute="width" constant="375" id="beY-Rf-5kj"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="K6W-cf-vQk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F02-ae-h9w"/>
+                            <constraint firstItem="K6W-cf-vQk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Qha-SR-1cL"/>
                             <constraint firstItem="ud5-UL-dH3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bFm-4P-Jsf"/>
+                            <constraint firstItem="K6W-cf-vQk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="277" id="sy8-Mx-FZm"/>
                             <constraint firstItem="LRp-Vs-YbM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vom-MW-St4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,6 +59,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="30.134932533733135"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="milk" width="360" height="242"/>
+    </resources>
 </document>
